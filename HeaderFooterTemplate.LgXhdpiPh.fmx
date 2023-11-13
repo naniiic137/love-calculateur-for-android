@@ -1,0 +1,31 @@
+inherited Love_LgXhdpiPh: TLove_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 3
+  inherited Edit1: TEdit
+    Position.X = 127.000000000000000000
+    Position.Y = 247.000000000000000000
+  end
+  inherited Edit2: TEdit
+    Position.X = 127.000000000000000000
+    Position.Y = 127.000000000000000000
+  end
+  inherited Label1: TLabel
+    Position.X = 167.000000000000000000
+    Position.Y = 96.000000000000000000
+  end
+  inherited Label2: TLabel
+    Position.X = 167.000000000000000000
+    Position.Y = 216.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 399.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label3: TLabel
+    Position.X = 127.000000000000000000
+    Position.Y = 312.000000000000000000
+    TextSettings.Font.StyleExt = {00090000000100000004000000}
+  end
+end

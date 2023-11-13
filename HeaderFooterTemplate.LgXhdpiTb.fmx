@@ -1,0 +1,11 @@
+inherited Love_LgXhdpiTb: TLove_LgXhdpiTb
+  ClientHeight = 828
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Button1: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label3: TLabel
+    TextSettings.Font.StyleExt = {00090000000100000004000000}
+  end
+end

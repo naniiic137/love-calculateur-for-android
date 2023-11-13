@@ -1,0 +1,87 @@
+object Love: TLove
+  Left = 0
+  Top = 0
+  Caption = 'Love Calculater'
+  ClientHeight = 568
+  ClientWidth = 384
+  Fill.Bitmap.WrapMode = Tile
+  Fill.Kind = Bitmap
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    TextSettings.FontColor = claAliceblue
+    Position.X = 95.000000000000000000
+    Position.Y = 215.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    TextSettings.FontColor = claAliceblue
+    Position.X = 95.000000000000000000
+    Position.Y = 95.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, Size, Style]
+    Position.X = 135.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.FontColor = claCrimson
+    TextSettings.HorzAlign = Center
+    Text = 'First Name'
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Size, Style]
+    Position.X = 135.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.FontColor = claCrimson
+    TextSettings.HorzAlign = Center
+    Text = 'Second Name'
+    TabOrder = 2
+  end
+  object Button1: TButton
+    StyledSettings = [Family]
+    Position.X = 8.000000000000000000
+    Position.Y = 367.000000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Love Calculater'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claAliceblue
+    OnClick = Button1Click
+  end
+  object Label3: TLabel
+    StyledSettings = [Family]
+    Position.X = 95.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 48.000000000000000000
+    TextSettings.Font.StyleExt = {00090000000100000004000000}
+    TextSettings.FontColor = claAqua
+    TextSettings.HorzAlign = Center
+    Text = '0'
+    TabOrder = 5
+  end
+end
